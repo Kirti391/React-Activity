@@ -1,5 +1,5 @@
-# React Activity : Hello Message with Props
+# React Activities
 
-This is a simple React activity that demonstrates how to use props to customize a component.
-
-In this activity , you have to show a "Hello Message" to the user in different colors and you have to pass 2 values as props : userName & textColor
+This repo mainly consists of two basic activities related to the React.
+1)First Activity demonstrates how to use props to customize a component.
+2)Amazon Cards
