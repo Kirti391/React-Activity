@@ -1,9 +1,10 @@
-// import './App.css'
+import './App.css'
 import ProductTab from './ProductTab'
 function App() {
 
   return (
     <>
+    <h2 className='deals'>Blockbuster Deals | Shop Now</h2>
       <ProductTab/>
     </>
   )

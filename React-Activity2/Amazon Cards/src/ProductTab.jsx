@@ -1,8 +1,15 @@
 import Product from "./Product .jsx"
 
-export default function ProductTab(){
+function ProductTab(){
+    let styles={
+        display:"flex",
+        flexWrap:"wrap",
+        justifyContent:"center",
+        alignItems:"center",
+        textAlign:"center"
+    }
     return(
-        <div>
+        <div style={styles}>
          <Product title="Logitech MXMaster" idx={0}/>
           <Product title="Apple Pencil (2nd Gen)"idx={1}/>
            <Product title="Zebronics Zeb Transformer"idx={2}/>
@@ -11,3 +18,4 @@ export default function ProductTab(){
         </div>
     )
 }
+export default ProductTab;
